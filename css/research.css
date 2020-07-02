@@ -1,0 +1,243 @@
+.container{
+    /* outline-style: dotted;
+    height:1000px;
+    margin-top: 5%; */
+}
+.grid1{
+    margin-right: 5px;
+    margin-left: 50%;
+   margin-top: 50px;
+   
+}
+.nav{
+    background-color:#040453;
+}
+
+.Navtitle{
+   width:100vw;
+    font-size: 40px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left:45%;
+    cursor: pointer;
+    
+}
+.navHead a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 18px;
+  }
+
+.btnHome{
+    width:25px;
+    height:25px;  
+}
+
+.btnHomeRef:hover{
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+   
+}
+h1 a {
+    color:white;
+    font-size: 40px;
+      
+}
+ h1 a:hover{
+    text-decoration: none;
+    background-color: transparent;
+    color: white; 
+    cursor: pointer;
+}
+
+.vertical{
+    text-orientation: mixed;
+    writing-mode: vertical-rl;
+    transform:rotate(180deg);
+    /* transform-origin: left  0; */
+    height:600px;
+    text-align: center;
+    margin:auto;
+    font-size: 26px;
+}
+.designNav{
+    /* border:1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    outline-style:  auto;
+    justify-content: center;
+    align-content: center;
+    height:600px;
+  
+    
+}
+.btnResearch{
+    /* display:flex; */
+    height:120px;
+    width:100px;
+    justify-content: center;
+    margin-top:20px;
+    align-content: center;
+    vertical-align: middle;
+    background-color:rgb(146, 27, 230);
+    color:white;
+    padding-top: 30%;
+    font-size: 16px;
+}
+
+ .btnDefinition {
+    display:flex;
+    height:120px;
+    width:100px;
+    justify-content: center;
+    margin-top:20px;
+    align-content: center;
+    vertical-align: middle;
+    background-color: rgba(53, 73, 224, 0.76);
+    color:white;
+    padding-top: 30%;
+    
+}
+.btnIdeation {
+    display:flex;
+    height:120px;
+    width:100px;
+    justify-content: center;
+    margin-top:20px;
+    align-content: center;
+    vertical-align: middle;
+    background-color: rgba(25, 186, 223, 0.76);
+    color:white;
+    padding-top: 30%;
+    
+}
+.btnPrototype{
+    display:flex;
+    height:120px;
+    width:100px;
+    justify-content: center;
+    margin-top:20px;
+    align-content: center;
+    vertical-align: middle;
+    background-color: #0c340f;
+    color:white;
+    padding-top: 30%;
+    
+}
+.designNav a:hover{
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+.designContent h1{
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    font-size: 48px;
+    /* outline-style: auto; */
+}
+.designContent h3{
+    margin-top: 10%;
+    text-align: center;
+    /* padding:15px ; */
+    font-size: 40px;
+   color: royalblue;
+}
+.designContent h4{
+    margin-top: 10%;
+    text-align: left;
+
+}
+.designContent p{
+    text-align: left;
+    font-size: 24px;
+    margin-top: 10%;
+}
+#p1{
+    text-align: left;
+    font-size: 20px;
+    margin-top: 10%;
+    margin-left: -50px;
+    font-style: italic;
+    color: gray;
+    outline-style: auto;
+    padding: 5px;
+    width:500px;
+}
+#p2{
+    margin-left: 70px;
+    font-size: 20px;
+    margin-top: 10%;
+    text-align: left;
+    font-style: italic;
+    color: gray;
+    outline-style: auto;
+    padding: 5px;
+    width:500px;
+}
+#interviews #empathy {
+    margin-top: 75px;
+}
+ 
+ a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 18px;
+    font-size: 30px;
+  }
+  
+  .designLeftNav a:hover, .designRightNav a:hover, 
+  .designbottomNav a:hover {
+    background-color: rgb(144, 217, 230);
+    color: black;
+    font-size: 40px;
+  } 
+  /* .designbottomNav a {
+        text-decoration: none;
+        display: inline-block;
+        padding: 5px 18px;
+        font-size: 30px;
+      } */
+  
+  
+  .round {
+    border-radius: 70%;
+  }
+  .roundBottom  {
+     margin-left:50%;
+    border-radius: 70%;
+  }
+  .designbottomNav{
+    display: flex;
+    justify-content:space-between
+  }
+  .roundLBottom{
+      margin-left: 100px;
+    border-radius: 70%;
+    outline-style: dotted;
+  }
+  .roundRBottom{
+    border-radius: 70%;
+    outline-style: dotted;
+      
+}
+  .imgCompetitiveAnalysis{
+    width:300px;
+    margin-left: 30%;
+    cursor: pointer;
+
+  }
+
+  
+  #claire, #marc{
+      margin-top: 50px;
+  }
+  
+ 
+  

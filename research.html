@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HW-20_A case study web page using Bootstrap4</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="css/research.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <nav class="nav">
+      <!-- <h1 class="Navtitle">Adopt A Star</h1> -->
+      <h1 class="navHead">     
+        <a class="Navtitle" href="index.html">
+            Adopt A Star
+          </a>
+    </h1>
+        <div>
+        <a href="index.html" class="btnHomeRef">
+            <img src="images/Home.png" class="btnHome" />
+          </a>
+        </div>
+       
+     
+      <!-- <a href="index.html" class="btnHomeRef">
+        <img src="images/Home.png" class="btnHome" />
+      </a> -->
+
+      <!--<img src="images/close.png" class="btnClose" /> 
+      <a class="nav-link active"></a> -->
+      -->
+    </nav>
+    <div class="container">
+      <div class="row grid1">
+        <div class="col-md-1 designProcess">
+          <p class="vertical">Design Process</p>
+        </div>
+        <div class="col-md-2 designNav">
+          <!-- <button class="btnResearch" href="research.html">Research</button> -->
+          <!-- <button class="btnResearch" 
+          onclick="window.location.href = 'research.html';"> 
+          </button>  -->
+         <a href="research.html">
+         <button class="btnResearch">Research</button></a>
+          <button class="btnDefinition" href="definition.html">Definition</button>
+          <button class="btnIdeation" href="ideation.html">Ideation</button>
+          <button class="btnPrototype" href="prototype.html">Prototype</button>
+        </div>
+        <div class="col-sm-1 designLeftNav">
+          <a href="index.html" class="round">&#8249;</a>
+        </div>
+        <!-- <div class="designLeftNav">
+            <a href="#" class="roundBottom">&#8249;</a>   
+          </div> -->
+        <div class="col-lg-6 designContent">
+          <h1>Research</h1>
+          <div>
+            <h3>Competitive Analysis</h3>
+          </div>
+          <div>
+            <p id="Competitive">
+              So far, there were not too many comparable offers except one
+              direct competitors in the field of astronomy or space research
+              related subject with focus on nonprofit . The creation of
+              competitive profiles with one direct and one indirect competitors
+              (in terms of uasbility,layout,navigation structure,content, design
+              and performance) together with SWOT analysis to assess current
+              offers in this area.
+            </p>
+            <p id="p1">
+              Easy to use UI and process of buying a star with customizable
+              certificates and gift options.
+            </p>
+            <p id="p2">
+              User control and freedom of options and choices
+            </p>
+            <div>
+              <!-- <img src="images/competitiveAnalysis.png"  class="imgCompetitiveAnalysis" >; -->
+              <!-- <a href="images/competitiveAnalysis.png"> </a> -->
+              <a href="images/competitiveAnalysis.png" id="pop">
+                <img
+                  id="imageresource"
+                  src="images/competitiveAnalysis.png"
+                  style="width: 500px; height: 300px;"
+                />
+              </a>
+
+              <!-- Creates the bootstrap modal where the image will appear -->
+              <div
+                class="modal fade"
+                id="imagemodal"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="myModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span
+                        ><span class="sr-only">Close</span>
+                      </button>
+                      <h4 class="modal-title" id="myModalLabel">
+                        Image preview
+                      </h4>
+                    </div>
+                    <div class="modal-body">
+                      <img
+                        src=""
+                        id="imagepreview"
+                        style="width: 700px; height: 264px;"
+                      />
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-default"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--end of competitive Analysis-->
+          <div>
+            <h3>Finding from interviews and surveys</h3>
+          </div>
+          <p id="interviews">
+            Interviewed users ranging from age group 25yrs-40yrs. Due to covid
+            situation, most of the interviews were either on the phone or zoom
+            meetings to see the user reactions and user flow.
+          </p>
+          <p id="p1">
+            UI Visuals<br /><br />
+            “Website looks like a scam, it doesn’t look professional at all. It
+            looks like an illegal website for gambling.”
+          </p>
+          <p id="p2">
+            Typography <br /><br />“The dropdowns to select a constellation and
+            others are very poorly designed”.
+          </p>
+          <p id="p1">
+            Content quality<br /><br />
+            “The information is not exciting enough to donate/Adopt
+          </p>
+          <p id="p2">
+            Information Architecture<br /><br />
+
+            “It’s confusing that it just shows a list of stars and you’re unsure
+            which constellation they belong to.
+          </p>
+          <p id="p1">
+            Lack of Information<br /><br />
+            “It would have been better if they talk about difference or show
+            some exciting photos of different kind of star. There is no story”.
+          </p>
+          <div>
+            <h3>Building Empathy</h3>
+            <h4>Insights:</h4>
+            <p id="empathy">
+              As a team we contacted “Travis Metcalfe”, an professional
+              astronomer at the Space Science Institute in Boulder, Colorado who
+              started this nonprofit “Adopt a star”. He provided us with the
+              insight data. We also conducted user test and gathered user test
+              insights which helped us to create “Empathy”.
+            </p>
+            <div>
+              <a href="images/Stakeholder_Insights.png" id="pop">
+                <img
+                  id="imageresource"
+                  src="images/Stakeholder_Insights.png"
+                  style="width: 500px; height: 300px;"
+                />
+              </a>
+            </div>
+            <!--end of insights image-->
+            <h4>User Test Insights:</h4>
+            <div>
+              <a href="images/Enthu.png" id="pop">
+                <img
+                  id="imageresource"
+                  src="images/Enthu.png"
+                  style="width: 500px; height: 300px;"
+                />
+              </a>
+            </div>
+            <!--end of Enthu image-->
+            <div>
+              <a href="images/customers.png" id="pop">
+                <img
+                  id="imageresource"
+                  src="images/customers.png"
+                  style="width: 500px; height: 300px;"
+                />
+              </a>
+            </div>
+            <!--end of customer image-->
+            <h4>Personas:</h4>
+            <div id="claire">
+              <a href="images/Claire.png" id="pop">
+                <img
+                  id="imageresource"
+                  src="images/Claire.png"
+                  style="width: 500px; height: 500px;"
+                />
+              </a>
+            </div>
+            <!--end of claire image-->
+            <div id="marc">
+              <a href="images/marc.png" id="pop">
+                <img
+                  id="imageresource"
+                  src="images/marc.png"
+                  style="width: 400px; height: 500px;"
+                />
+              </a>
+            </div>
+            <!--end of marc image-->
+          </div>
+        </div>
+        <!-- <div>
+          <p id="p1">
+            UI Visuals “Website looks like a scam, it doesn’t look professional
+            at all. It looks like an illegal website for gambling.”
+          </p>
+        </div> -->
+        <div class="col-sm-1 designRightNav">
+          <a href="definition.html" class="round">&#8250;</a>
+        </div>
+        <!-- <div class="designRightNav">
+            <a href="#" class="roundBottom">&#8250;</a>
+          </div> -->
+      </div>
+      <!--end of Grid-->
+      <div class="designbottomNav">
+        <a href="#" class="roundLBottom">&#8249;</a>
+        <a href="#" class="roundRBottom">&#8250;</a>
+      </div>
+    </div>
+    <!--end of Container-->
+
+    <!-- javascript tag -->
+    <!-- Add the script tag to jQuery below. -->
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="JS/index.js"></script> -->
+    <!-- JS, Popper.js, and jQuery -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      src = "js/index.js";
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-171492924-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-171492924-1');
+</script>
+  </body>
+</html>

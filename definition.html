@@ -3,7 +3,7 @@
   <head>
     <title>HW-20_A case study web page using Bootstrap4</title>
     <!-- CSS only -->
-    <link rel="stylesheet" href="css/research.css" />
+    <link rel="stylesheet" href="css/definition.css" />
 
     <link
       rel="stylesheet"
@@ -21,119 +21,71 @@
           </a>
     </h1>
         <div>
-        <a href="index.html" class="btnHomeRef">
+        <a href="https://schandrupatla.github.io/UX_UI_HW_19/" class="btnHomeRef">
             <img src="images/Home.png" class="btnHome" />
           </a>
         </div>
-      </nav>
+    </nav>
     <div class="container">
       <div class="row grid1">
         <div class="col-md-1 designProcess">
           <p class="vertical">Design Process</p>
         </div>
-        <div class="col-md-2 designNav">
-          <!-- <button class="btnResearch">Research</button> -->
+        <div class="col-sm-2 designNav">
           <a href="research.html">
             <button class="btnResearch">Research</button></a>
-          <!-- <button class="btnResearch">Research</button></a> -->
-          <button class="btnDefinition">Definition</button>
-          <button class="btnIdeation">Ideation</button>
-          <button class="btnPrototype">Prototype</button>
+            <a href="definition.html">
+              <button class="btnDefinition">Definition</button></a>
+              <a href="ideation.html">
+                <button class="btnIdeation">Ideation</button></a>
+                <a href="prototype.html">
+                  <button class="btnPrototype">Prototype</button></a>
         </div>
         <div class="col-sm-1 designLeftNav">
           <a href="research.html" class="round">&#8249;</a>
         </div>
-        <!-- <div class="designLeftNav">
-            <a href="#" class="roundBottom">&#8249;</a>   
-          </div> -->
         <div class="col-lg-6 designContent">
           <h1>Definition</h1>
           <div>
-            <h3>Defining the Problem statement</h3>
+            <h3 class="pbh3">Defining the Problem statement</h3>
           </div>
           <div>
-            <p id="Competitive">
+            <p id="pbStatement">
                 After gathering the findings from the research, 
                 I worked with the team to understood the pains and 
                 validated these problems with more users who were equally frustrated. 
                 After thourough analysis defined the problem statement
             </p>
-               <div>
-              <!-- <img src="images/competitiveAnalysis.png"  class="imgCompetitiveAnalysis" >; -->
-              <!-- <a href="images/competitiveAnalysis.png"> </a> -->
-              <a href="images/pbStatement.png" id="pop">
-                <img
-                  id="imageresource"
-                  src="images/pbStatement.png"
-                  style="width: 600px; height: 500px;"
-                />
-              </a>
-
-              <!-- Creates the bootstrap modal where the image will appear -->
-              <div
-                class="modal fade"
-                id="imagemodal"
-                tabindex="-1"
-                role="dialog"
-                aria-labelledby="myModalLabel"
-                aria-hidden="true"
-              >
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <button type="button" class="close" data-dismiss="modal">
-                        <span aria-hidden="true">&times;</span
-                        ><span class="sr-only">Close</span>
-                      </button>
-                      <h4 class="modal-title" id="myModalLabel">
-                        Image preview
-                      </h4>
-                    </div>
-                    <div class="modal-body">
-                      <img
-                        src=""
-                        id="imagepreview"
-                        style="width: 700px; height: 264px;"
-                      />
-                    </div>
-                    <div class="modal-footer">
-                      <button
-                        type="button"
-                        class="btn btn-default"
-                        data-dismiss="modal"
-                      >
-                        Close
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
-          <!--end of competitive Analysis-->
+          <div id="imgPbStatement">
+            <a href="images/pbStatement.png" id="pop">
+              <img
+                id="imageresource"
+                src="images/pbStatement.png"
+                style="width: 500px; height: 500px; margin-top:75px"
+              />
+            </a>
+          </div>
           <div>
             <h3>UX Hypothesis</h3>
           </div>
-          <p id="interviews">
+          <p id="hypothesis">
             We believe by enhancing the overall user experience of the website 
             through clear visibility of donation options, simplifying scientific jargon, 
             for incoming users interested in donating money to adopt stars will increase 
             research revenue for the "White Dwarf Research Corporation. We will know this is 
             true when we see increase in site traffic and research revenue compared to a competitor. 
           </p>
-          </div>
-        </div>
+
+        </div><!--designContent-->
         <div class="col-sm-1 designRightNav">
           <a href="ideation.html" class="round">&#8250;</a>
         </div>
-        <!-- <div class="designRightNav">
-            <a href="#" class="roundBottom">&#8250;</a>
-          </div> -->
       </div>
       <!--end of Grid-->
       <div class="designbottomNav">
-        <a href="#" class="roundLBottom">&#8249;</a>
-        <a href="#" class="roundRBottom">&#8250;</a>
+        <a href="research.html" class="roundLBottom">&#8249;</a>
+        <a href="ideation.html" class="roundRBottom">&#8250;</a>
       </div>
     </div>
     <!--end of Container-->
@@ -161,15 +113,6 @@
     ></script>
     <script>
       src = "js/index.js";
-    </script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-171492924-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-171492924-1');
-</script>
+     </script>
   </body>
 </html>

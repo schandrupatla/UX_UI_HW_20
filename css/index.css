@@ -15,38 +15,33 @@
 .nav{
     background-color:#040453;
 }
-/* .Navtitle{
-    display:flex;
-    width:100vw;
-     font-size: 40px;
-     color: white;
-     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-     align-content: center;
-     justify-content: center;
-     cursor: pointer;
-     padding-top: 10px;
-} */
+
 .Navtitle{
-    width:100vw;
-     font-size: 40px;
-     color: white;
-     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-     margin-left:45%;
-     cursor: pointer;
-     
- }
- .btnHome{
-     width:25px;
-     height:25px;  
- }
- 
- .btnHomeRef:hover{
-     text-decoration: none;
-     background-color: transparent;
-     color: white;
-     cursor: pointer;
+   width:100vw;
+    font-size: 40px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left:45%;
+    cursor: pointer;
     
- }
+}
+.navHead a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 18px;
+  }
+  .btnHome{
+    width:25px;
+    height:25px;  
+}
+
+.btnHomeRef:hover{
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+   
+}
  h1 a {
     color:white;
     font-size: 40px;
@@ -60,10 +55,12 @@
     cursor: pointer;
 }
 .vertical{
-    transform:rotate(-90deg);
-    /* transform-origin: left  0; */
+    text-orientation: mixed;
+    writing-mode: vertical-rl;
+    transform:rotate(180deg);
+    height:600px;
     text-align: center;
-    margin-top: 100px;
+    margin:auto;
     font-size: 26px;
 }
 .designNav{
@@ -77,58 +74,47 @@
     
 }
 .btnResearch{
-    display:flex;
-    height:20%;
+    height:120px;
     width:100px;
-    justify-content: center;
     margin-top:20px;
-    align-content: center;
-    vertical-align: middle;
     background-color:rgb(146, 27, 230);
     color:white;
-    padding-top: 30%;
+    font-size: 16px;
 }
- .btnDefinition {
-    display:flex;
-    height:20%;
+
+.btnDefinition {
+    height:120px;
     width:100px;
-    justify-content: center;
     margin-top:20px;
-    align-content: center;
-    vertical-align: middle;
     background-color: rgba(53, 73, 224, 0.76);
     color:white;
-    padding-top: 30%;
+    font-size: 16px;
     
 }
 .btnIdeation {
-    display:flex;
-    height:20%;
+    height:120px;
     width:100px;
-    justify-content: center;
     margin-top:20px;
-    align-content: center;
-    vertical-align: middle;
     background-color: rgba(25, 186, 223, 0.76);
     color:white;
-    padding-top: 30%;
+    font-size: 16px;
     
 }
 .btnPrototype{
-    display:flex;
-    height:20%;
+    height:120px;
     width:100px;
-    justify-content: center;
     margin-top:20px;
-    align-content: center;
-    vertical-align: middle;
     background-color: #0c340f;
     color:white;
-    padding-top: 30%;
+    font-size: 16px;
     
 }
-
-
+.designNav a:hover{
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
 .designContent{
     outline-style: auto;
 }
@@ -143,12 +129,12 @@ a {
     font-size: 30px;
   }
   
-  a:hover {
+  .designLeftNav a:hover, .designRightNav a:hover, 
+  .designbottomNav a:hover {
     background-color: rgb(144, 217, 230);
-     /* #ddd; */
     color: black;
     font-size: 40px;
-  }
+  } 
   
   .round {
      margin-top: 400%;
@@ -157,20 +143,4 @@ a {
   .teamProject{
       margin-top: 25%;
   }
-  /* .btnHome{
-      /* background-color: #040453;; */
-      width:30px;
-      height:30px;
-    margin-top: -70px;
-    margin-left: 20px;
-  }
-  .btnClose{
-    width:20px;
-    height:20px;
-    justify-content: right;
-    align-content: right;
-   Margin-top:-50px;
-   margin-left: 99%; 
-   cursor: pointer;
-
-  } */
+ 

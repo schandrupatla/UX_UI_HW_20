@@ -74,56 +74,39 @@ h1 a {
     
 }
 .btnResearch{
-    /* display:flex; */
     height:120px;
     width:100px;
-    justify-content: center;
     margin-top:20px;
-    align-content: center;
-    vertical-align: middle;
     background-color:rgb(146, 27, 230);
     color:white;
-    padding-top: 30%;
     font-size: 16px;
 }
 
- .btnDefinition {
-    display:flex;
+.btnDefinition {
     height:120px;
     width:100px;
-    justify-content: center;
     margin-top:20px;
-    align-content: center;
-    vertical-align: middle;
     background-color: rgba(53, 73, 224, 0.76);
     color:white;
-    padding-top: 30%;
+    font-size: 16px;
     
 }
 .btnIdeation {
-    display:flex;
     height:120px;
     width:100px;
-    justify-content: center;
     margin-top:20px;
-    align-content: center;
-    vertical-align: middle;
     background-color: rgba(25, 186, 223, 0.76);
     color:white;
-    padding-top: 30%;
+    font-size: 16px;
     
 }
 .btnPrototype{
-    display:flex;
     height:120px;
     width:100px;
-    justify-content: center;
     margin-top:20px;
-    align-content: center;
-    vertical-align: middle;
     background-color: #0c340f;
     color:white;
-    padding-top: 30%;
+    font-size: 16px;
     
 }
 .designNav a:hover{
@@ -197,14 +180,7 @@ h1 a {
     background-color: rgb(144, 217, 230);
     color: black;
     font-size: 40px;
-  } 
-  /* .designbottomNav a {
-        text-decoration: none;
-        display: inline-block;
-        padding: 5px 18px;
-        font-size: 30px;
-      } */
-  
+  }   
   
   .round {
     border-radius: 70%;
@@ -228,7 +204,8 @@ h1 a {
       
 }
   .imgCompetitiveAnalysis{
-    width:300px;
+    width:500px;
+    height: 400;
     margin-left: 30%;
     cursor: pointer;
 

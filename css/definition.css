@@ -5,46 +5,61 @@
 }
 .grid1{
     margin-right: 5px;
-    margin-left: 5px;
-   align-content: center;
-   justify-content: center;
+    margin-left: 50%;
    margin-top: 50px;
-   /* height: 1000px; */
-   /* width:1000px; */
+   
 }
 .nav{
     background-color:#040453;
 }
+
 .Navtitle{
-    display:flex;
    width:100vw;
     font-size: 40px;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    align-content: center;
-    justify-content: center;
-    /* margin-left:40%; */
-    /* padding: 20px; */
+    margin-left:45%;
     cursor: pointer;
     
+}
+.navHead a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 18px;
+  }
+
+.btnHome{
+    width:25px;
+    height:25px;  
+}
+
+.btnHomeRef:hover{
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+   
 }
 h1 a {
     color:white;
     font-size: 40px;
-    
-    
+      
 }
-h1 a:hover{
+ h1 a:hover{
     text-decoration: none;
     background-color: transparent;
-    color: white;
-
+    color: white; 
+    cursor: pointer;
 }
+
 .vertical{
-    transform:rotate(-90deg);
+    text-orientation: mixed;
+    writing-mode: vertical-rl;
+    transform:rotate(180deg);
     /* transform-origin: left  0; */
+    height:600px;
     text-align: center;
-    margin-top: 100px;
+    margin:auto;
     font-size: 26px;
 }
 .designNav{
@@ -52,62 +67,54 @@ h1 a:hover{
     display: flex;
     flex-wrap: wrap;
     outline-style:  auto;
-  justify-content: center;
+    justify-content: center;
     align-content: center;
     height:600px;
   
     
 }
 .btnResearch{
-    display:flex;
-    height:20%;
+    height:120px;
     width:100px;
-    justify-content: center;
     margin-top:20px;
-    align-content: center;
-    vertical-align: middle;
     background-color:rgb(146, 27, 230);
     color:white;
-    padding-top: 30%;
+    font-size: 16px;
 }
- .btnDefinition {
-    display:flex;
-    height:20%;
+
+.btnDefinition {
+    height:120px;
     width:100px;
-    justify-content: center;
     margin-top:20px;
-    align-content: center;
-    vertical-align: middle;
     background-color: rgba(53, 73, 224, 0.76);
     color:white;
-    padding-top: 30%;
+    font-size: 16px;
     
 }
 .btnIdeation {
-    display:flex;
-    height:20%;
+    height:120px;
     width:100px;
-    justify-content: center;
     margin-top:20px;
-    align-content: center;
-    vertical-align: middle;
     background-color: rgba(25, 186, 223, 0.76);
     color:white;
-    padding-top: 30%;
+    font-size: 16px;
     
 }
 .btnPrototype{
-    display:flex;
-    height:20%;
+    height:120px;
     width:100px;
-    justify-content: center;
     margin-top:20px;
-    align-content: center;
-    vertical-align: middle;
     background-color: #0c340f;
     color:white;
-    padding-top: 30%;
+    font-size: 16px;
     
+}
+.designNav a:hover{
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+
 }
 
 
@@ -135,6 +142,9 @@ h1 a:hover{
     font-size: 24px;
     margin-top: 10%;
 }
+.pbh3{
+    font-size: 36px;
+}
 #p1{
     text-align: left;
     font-size: 20px;
@@ -157,30 +167,28 @@ h1 a:hover{
     padding: 5px;
     width:500px;
 }
-#interviews #empathy {
+#storyboard #informationArchitecture {
     margin-top: 75px;
 }
-
-a {
+ 
+ a {
     text-decoration: none;
     display: inline-block;
     padding: 5px 18px;
     font-size: 30px;
   }
   
-  a:hover {
+  .designLeftNav a:hover, .designRightNav a:hover, 
+  .designbottomNav a:hover {
     background-color: rgb(144, 217, 230);
-     /* #ddd; */
     color: black;
     font-size: 40px;
-  }
+  }   
   
   .round {
-    /* margin-top: 400%;  */
     border-radius: 70%;
   }
   .roundBottom  {
-     /* margin-top: 200px;   */
      margin-left:50%;
     border-radius: 70%;
   }
@@ -198,30 +206,18 @@ a {
     outline-style: dotted;
       
 }
-  .imgCompetitiveAnalysis{
-    width:300px;
-    margin-left: 30%;
+  #imgPbStatement{
+    width:500px;
+    height: 400;
+     margin-left: 10px;
     cursor: pointer;
 
   }
 
-  .btnHome{
-      /* background-color: #040453;; */
-      width:30px;
-      height:30px;
-    margin-top: -70px;
-    margin-left: 20px;
-  }
-  .btnClose{
-    width:20px;
-    height:20px;
-    justify-content: right;
-    align-content: right;
-   Margin-top:-60px;
-   margin-left: 99%; 
-  }
+  
   #claire, #marc{
       margin-top: 50px;
   }
+  
  
   

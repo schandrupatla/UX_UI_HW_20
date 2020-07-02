@@ -11,10 +11,6 @@ $("#pop").on("click", function() {
     });
   });
 
-//   $(".btnCloset").click(function(){
-//     window.open('','_parent',''); 
-//     window.close(); 
-// });
 function closeWin() { 
     var potfolio= window();
     potfolio.close(); 
